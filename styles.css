@@ -1,0 +1,72 @@
+/* Reset default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body style */
+body {
+  font-family: "Poppins", sans-serif; /* Modern font */
+  background-color: #ffffff; /* White background */
+  color: #333; /* Black text for readability */
+  line-height: 1.6;
+  padding: 20px;
+}
+
+/* Header */
+header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+header h1 {
+  font-size: 3em;
+  color: #007BFF; /* Blue for highlights */
+}
+
+header p {
+  font-size: 1.2em;
+  color: #333; /* Black for text */
+}
+
+/* About section */
+.about {
+  background-color: #ffffff; /* White background */
+  padding: 20px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Soft shadow */
+}
+
+/* Projects */
+.projects {
+  background-color: #ffffff; /* White background */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Soft shadow */
+}
+
+.project {
+  margin-bottom: 20px;
+}
+
+.project h3 {
+  color: #007BFF; /* Blue for project titles */
+}
+
+a {
+  color: #007BFF; /* Blue for links */
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline; /* Underline on hover */
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  margin-top: 40px;
+  color: #777; /* Light grey for footer text */
+}
